@@ -1,16 +1,142 @@
-# React + Vite
+# 🔐 PassHero - Password Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassHero is a full-stack password manager built using **React, Node.js, Express.js, and MongoDB**. It allows users to securely store, manage, edit, and delete their website credentials through a clean and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+- ➕ Add new passwords
+- ✏️ Edit saved credentials
+- 🗑️ Delete passwords
+- 👁️ Show/Hide password visibility
+- 📋 Copy username or password with one click
+- 🔔 Toast notifications for user actions
+- 📱 Responsive user interface
+- 💾 MongoDB database integration
+- ⚡ REST API built with Express.js
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Frontend
+- React
+- Tailwind CSS
+- React Toastify
+- UUID
+
+### Backend
+- Node.js
+- Express.js
+- MongoDB
+- dotenv
+- body-parser
+- CORS
+
+---
+
+## 📂 Project Structure
+
+```
+PassHero-Password-Manager
+│
+├── backend
+│   ├── server.js
+│   ├── package.json
+│   ├── .env.example
+│   └── ...
+│
+├── src
+│   ├── components
+│   ├── App.jsx
+│   └── ...
+│
+├── public
+├── package.json
+└── README.md
+```
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/void-0019/PassHero-Password-Manager.git
+```
+
+### 2. Install frontend dependencies
+
+```bash
+npm install
+```
+
+### 3. Install backend dependencies
+
+```bash
+cd backend
+npm install
+```
+
+### 4. Configure Environment Variables
+
+Create a `.env` file inside the `backend` folder.
+
+Example:
+
+```env
+MONGO_URI=your_mongodb_connection_string
+PORT=3000
+```
+
+### 5. Start Backend
+
+```bash
+cd backend
+npm start
+```
+
+### 6. Start Frontend
+
+```bash
+npm run dev
+```
+
+---
+
+
+## 📌 Future Improvements
+
+- User Authentication
+- Password Encryption
+- Password Strength Indicator
+- Search & Filter
+- Categories
+- Dark/Light Theme
+- Deploy on Render/Vercel
+- Generate Strong Password
+- Export/Import Passwords
+
+---
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome.
+
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## 👨‍💻 Author
+
+**Rishabh Singh**
+
+GitHub: https://github.com/void-0019
