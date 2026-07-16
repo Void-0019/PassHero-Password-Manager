@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+input::-ms-reveal {
+    display: none;
+}
+
+@layer components {
+  .flex-center {
+    @apply flex justify-center items-center
+  }
+}
